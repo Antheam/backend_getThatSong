@@ -3,10 +3,9 @@ class CreateSongs < ActiveRecord::Migration[5.2]
     create_table :songs do |t|
       t.string :title
       t.string :movie
-      t.references :playlist, foreign_key: true
+      t.integer :playlist_id
 
       t.timestamps
     end
   end
 end
-

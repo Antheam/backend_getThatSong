@@ -1,7 +1,4 @@
-# okay, lets make song seeds and see how we do
-#  then we test in the rails console
-# Do I need to set it to a variable??
-# How do I set varialabe in ruby again?
+
 
 
 # User.destroy_all
